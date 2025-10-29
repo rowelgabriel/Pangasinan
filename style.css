@@ -1,0 +1,27 @@
+/* navbar */
+.transparent-navbar {
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(5px);
+}
+
+/* home section */
+#home {
+  position: relative;
+  background-image: url('images/pangasinan.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white;
+}
+
+#home::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#home .content {
+  position: relative;
+  z-index: 1;
+}
