@@ -15,7 +15,7 @@
 
   <!-- navbar -->
   <nav
-    class="navbar navbar-expand-sm navbar-light bg-light shadow fixed-top rounded mt-lg-4 mt-sm-3 mt-2 mx-lg-5 mx-sm-4 mx-3 px-4">
+    class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top rounded mt-lg-4 mt-sm-3 mt-2 mx-lg-5 mx-sm-4 mx-3 px-4">
     <div class="container-fluid">
       <a class="navbar-brand fw-bold text-primary fs-4">🌴 Explore Pangasinan</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -25,8 +25,8 @@
 
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active fw-semibold text-dark" href="#home">
+          <li class="nav-item ps-sm-3 ps-0">
+            <a class="nav-link fw-semibold text-dark" href="#home">
               <i class="bi bi-house-door-fill me-1"></i> Home
             </a>
           </li>
@@ -38,6 +38,11 @@
           <li class="nav-item ps-sm-3 ps-0">
             <a class="nav-link fw-semibold text-dark" href="#places">
               <i class="bi bi-geo-alt-fill me-1"></i> Places
+            </a>
+          </li>
+          <li class="nav-item ps-sm-3 ps-0">
+            <a class="nav-link fw-semibold text-dark" href="#festivals">
+              <i class="bi bi-music-note-beamed me-1"></i> Festivals
             </a>
           </li>
         </ul>
@@ -69,8 +74,8 @@
   </section>
 
   <!-- Places Section -->
-  <section id="places" class="py-5">
-    <div class="container text-center px-lg-5 px-md-4 px-3">
+  <section id="places" class="py-5 text-center">
+    <div class="container px-lg-5 px-md-4 px-3">
       <h2 class="fw-bold fs-2 mx-auto mt-5 mb-4"><i class="bi bi-geo-alt-fill me-1 pe-2"></i>Places to Visit Here in
         Pangasinan</h2>
       <div class="row justify-content-center">
@@ -134,9 +139,67 @@
     </div>
   </section>
 
+  <!-- Festivals Section -->
+  <section id="festivals" class="py-5 bg-light text-center">
+    <div class="container px-lg-5 px-md-4 px-3">
+      <h2 class="fw-bold fs-2 mx-auto mt-5 mb-4">
+        <i class="bi bi-music-note-beamed me-2"></i>Culture & Festivals of Pangasinan
+      </h2>
+      <p class="lead mb-5 col-10 mx-auto">
+        Pangasinan’s culture is a colorful blend of tradition, faith, and coastal life.
+        Every year, locals celebrate their blessings through vibrant festivals filled with music, dance,
+        and food. From the sea-loving <strong>Pista’y Dayat</strong> in Lingayen, to the inviting
+        <strong>Galila Festival</strong> in Alaminos, and the lively <strong>Bangus Festival</strong>
+        in Dagupan City, these celebrations capture the joyful spirit and unity of the Pangasinense people.
+      </p>
+
+      <div class="row justify-content-center g-4">
+        <!-- pistay dayat -->
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card shadow festival-card">
+            <img src="images/f1.jpg" class="card-img-top" alt="pistay dayat">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">🌊 Pista’y Dayat Festival</h5>
+              <p class="text-muted mb-0">
+                Celebrated every May 1 in Lingayen, this “Festival of the Sea” honors the province’s fishing
+                heritage with beach activities, parades, and thanksgiving ceremonies.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- galila -->
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card shadow festival-card">
+            <img src="images/f2.jpg" class="card-img-top" alt="galila">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">🎭 Galila Festival</h5>
+              <p class="text-muted mb-0">
+                Meaning “Come!” in Pangasinan, the Galila Festival of Alaminos City invites everyone to
+                celebrate culture through street dancing, art exhibits, and local performances.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- bangus -->
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="card shadow festival-card">
+            <img src="images/f3.jpg" class="card-img-top" alt="bangus">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">🐟 Bangus Festival</h5>
+              <p class="text-muted mb-0">
+                Dagupan City’s signature event that showcases the province’s famous milkfish through
+                street dancing, cook-offs, parades, and fun competitions for locals and tourists alike.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
 
   <!-- location -->
-  <section class="py-5 bg-light text-center">
+  <section class="py-5 text-center">
     <div class="container">
       <h2 class="fw-bold fs-2 mx-auto mt-5">📍 Where to Find Pangasinan</h3>
         <p class="mb-4">Located in the western part of Luzon, Pangasinan is a coastal province known for its beaches,
