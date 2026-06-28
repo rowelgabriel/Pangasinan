@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pangasinan</title>
+  <title>Bootstrap demo</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
@@ -12,37 +12,35 @@
 </head>
 
 <body>
-
-  <!-- navbar -->
-  <nav
-    class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top rounded mt-lg-4 mt-sm-3 mt-2 mx-lg-5 mx-sm-4 mx-3 px-4">
+  <nav id="navbar" class="navbar navbar-expand-lg shadow-sm fixed-top px-sm-3 px-1 py-3">
     <div class="container-fluid">
-      <a class="navbar-brand fw-bold text-primary fs-4">🌴 Explore Pangasinan</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      <div class="navbar-brand fw-bold text-primary">
+        🌴 Explore Pangasinan
+      </div>
+      <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item ps-sm-3 ps-0">
-            <a class="nav-link fw-semibold text-dark" href="#home">
-              <i class="bi bi-house-door-fill me-1"></i> Home
+          <li class="nav-item px-lg-3">
+            <a class="nav-link text-dark fw-semibold" href="#home">
+              <i class="bi bi-house-door-fill me-2"></i>Home
             </a>
           </li>
-          <li class="nav-item ps-sm-3 ps-0">
-            <a class="nav-link fw-semibold text-dark" href="#about">
-              <i class="bi bi-info-circle-fill me-1"></i> About
+          <li class="nav-item px-lg-3">
+            <a class="nav-link text-dark fw-semibold" href="#about">
+              <i class="bi bi-info-circle-fill me-2"></i>About
             </a>
           </li>
-          <li class="nav-item ps-sm-3 ps-0">
-            <a class="nav-link fw-semibold text-dark" href="#places">
-              <i class="bi bi-geo-alt-fill me-1"></i> Places
+          <li class="nav-item px-lg-3">
+            <a class="nav-link text-dark fw-semibold" href="#places">
+              <i class="bi bi-geo-alt-fill me-2"></i></i>Places
             </a>
           </li>
-          <li class="nav-item ps-sm-3 ps-0">
-            <a class="nav-link fw-semibold text-dark" href="#festivals">
-              <i class="bi bi-music-note-beamed me-1"></i> Festivals
+          <li class="nav-item px-lg-3">
+            <a class="nav-link text-dark fw-semibold" href="#festivals">
+              <i class="bi bi-music-note-beamed me-2"></i></i>Festivals
             </a>
           </li>
         </ul>
@@ -50,175 +48,9 @@
     </div>
   </nav>
 
-  <!-- Home Section -->
-  <section id="home" class="d-flex align-items-center justify-content-center text-center">
-    <div class="container content">
-      <h1 class="display-3 fw-bold">Welcome to Pangasinan</h1>
-      <p class="lead fs-5 mx-auto mt-3">Discover the beauty, culture, and hidden treasures of the Philippines’ coastal
-        paradise.</p>
-    </div>
-  </section>
-
-  <!-- About Section -->
-  <section id="about" class="py-5 bg-light">
-    <div class="container-fluid d-flex flex-column align-items-center text-center">
-      <h2 class="fw-bold fs-2 mx-auto mt-5 mb-4"><i class="bi bi-info-circle-fill me-1 pe-2"></i>About Pangasinan</h2>
-      <p class="lead fs-5 mx-auto col-10">
-        Pangasinan, located in the heart of Northern Luzon, is a province blessed with breathtaking natural beauty and
-        rich cultural heritage. Known for its pristine beaches, the world-famous Hundred Islands, and warm, welcoming
-        people, it offers both adventure and tranquility. Visitors can explore its scenic landscapes, taste its
-        flavorful local delicacies, and experience traditions deeply rooted in history. Whether you seek relaxation or
-        exploration, Pangasinan is a destination that captures the essence of true Filipino charm.
-      </p>
-    </div>
-  </section>
-
-  <!-- Places Section -->
-  <section id="places" class="py-5 text-center">
-    <div class="container px-lg-5 px-md-4 px-3">
-      <h2 class="fw-bold fs-2 mx-auto mt-5 mb-4"><i class="bi bi-geo-alt-fill me-1 pe-2"></i>Places to Visit Here in
-        Pangasinan</h2>
-      <div class="row justify-content-center">
-        <!-- place 1 -->
-        <div class="col-lg-4 col-md-6 col-12 mb-3">
-          <a href="hundred-islands.html" class="card-link text-decoration-none">
-            <div class="card h-100 shadow places-card">
-              <img src="images/hi1.jpg" class="card-img-top" alt="place1">
-              <div class="card-body">
-                <h5 class="card-title">🏝 Hundred Islands</h5>
-              </div>
-            </div>
-          </a>
-        </div>
-        <!-- place 2 -->
-        <div class="col-lg-4 col-md-6 col-12 mb-3">
-          <a href="camp-puor.html" class="card-link text-decoration-none">
-            <div class="card h-100 shadow places-card">
-              <img src="images/cp1.jpg" class="card-img-top" alt="place2">
-              <div class="card-body">
-                <h5 class="card-title">🏕 Camp Puor</h5>
-              </div>
-            </div>
-          </a>
-        </div>
-        <!-- place 3 -->
-        <div class="col-lg-4 col-md-6 col-12 mb-3">
-          <a href="enchanted-cave.html" class="card-link text-decoration-none">
-            <div class="card h-100 shadow places-card">
-              <img src="images/ec1.jpg" class="card-img-top" alt="place3">
-              <div class="card-body">
-                <h5 class="card-title">🪨 Enchanted Cave</h5>
-              </div>
-            </div>
-          </a>
-        </div>
-        <!-- place 4 -->
-        <div class="col-lg-4 col-md-6 col-12 mb-3">
-          <a href="cape-bolinao-lighthouse.html" class="card-link text-decoration-none">
-            <div class="card h-100 shadow places-card">
-              <img src="images/cbl1.jpg" class="card-img-top" alt="place4">
-              <div class="card-body">
-                <h5 class="card-title">💡 Cape Bolinao Lighthouse</h5>
-              </div>
-            </div>
-          </a>
-        </div>
-        <!-- place 5 -->
-        <div class="col-lg-4 col-md-6 col-12 mb-3">
-          <a href="patar-beach.html" class="card-link text-decoration-none">
-            <div class="card h-100 shadow places-card">
-              <img src="images/pb1.jpg" class="card-img-top" alt="place5">
-              <div class="card-body">
-                <h5 class="card-title">🏖 Patar Beach</h5>
-              </div>
-            </div>
-          </a>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Festivals Section -->
-  <section id="festivals" class="py-5 bg-light text-center">
-    <div class="container px-lg-5 px-md-4 px-3">
-      <h2 class="fw-bold fs-2 mx-auto mt-5 mb-4">
-        <i class="bi bi-music-note-beamed me-2"></i>Culture & Festivals of Pangasinan
-      </h2>
-      <p class="lead mb-5 col-10 mx-auto">
-        Pangasinan’s culture is a colorful blend of tradition, faith, and coastal life.
-        Every year, locals celebrate their blessings through vibrant festivals filled with music, dance,
-        and food. From the sea-loving <strong>Pista’y Dayat</strong> in Lingayen, to the inviting
-        <strong>Galila Festival</strong> in Alaminos, and the lively <strong>Bangus Festival</strong>
-        in Dagupan City, these celebrations capture the joyful spirit and unity of the Pangasinense people.
-      </p>
-
-      <div class="row justify-content-center g-4">
-        <!-- pistay dayat -->
-        <div class="col-lg-4 col-md-6 col-12">
-          <div class="card shadow festival-card">
-            <img src="images/f1.jpg" class="card-img-top" alt="pistay dayat">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">🌊 Pista’y Dayat Festival</h5>
-              <p class="text-muted mb-0">
-                Celebrated every May 1 in Lingayen, this “Festival of the Sea” honors the province’s fishing
-                heritage with beach activities, parades, and thanksgiving ceremonies.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- galila -->
-        <div class="col-lg-4 col-md-6 col-12">
-          <div class="card shadow festival-card">
-            <img src="images/f2.jpg" class="card-img-top" alt="galila">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">🎭 Galila Festival</h5>
-              <p class="text-muted mb-0">
-                Meaning “Come!” in Pangasinan, the Galila Festival of Alaminos City invites everyone to
-                celebrate culture through street dancing, art exhibits, and local performances.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- bangus -->
-        <div class="col-lg-4 col-md-6 col-12">
-          <div class="card shadow festival-card">
-            <img src="images/f3.jpg" class="card-img-top" alt="bangus">
-            <div class="card-body">
-              <h5 class="card-title fw-bold">🐟 Bangus Festival</h5>
-              <p class="text-muted mb-0">
-                Dagupan City’s signature event that showcases the province’s famous milkfish through
-                street dancing, cook-offs, parades, and fun competitions for locals and tourists alike.
-              </p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- location -->
-  <section class="py-5 text-center">
-    <div class="container">
-      <h2 class="fw-bold fs-2 mx-auto mt-5">📍 Where to Find Pangasinan</h3>
-        <p class="mb-4">Located in the western part of Luzon, Pangasinan is a coastal province known for its beaches,
-          heritage towns, and the famous Hundred Islands National Park.</p>
-        <iframe src="https://www.google.com/maps?q=Pangasinan,+Philippines&output=embed" width="100%" height="400"
-          style="border:0;" allowfullscreen="" loading="lazy">
-        </iframe>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-light text-center border-top py-4">
-    <p>© 2025 Explore Pangasinan | All Rights Reserved</p>
-  </footer>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
-
 </body>
 
 </html>
