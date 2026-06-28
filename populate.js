@@ -47,7 +47,7 @@ for (var i = 0; i < places.length; i++) {
         </div>
         <div class="card-body text-center">
           <div class="card-title fw-bold h4">${places[i].title}</div>
-          <div class="card-text">${places[i].location}</div>
+          <div class="card-text text-muted">${places[i].desc}</div>
         </div>
       </div>
     </div>

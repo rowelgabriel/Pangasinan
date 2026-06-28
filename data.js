@@ -28,7 +28,7 @@ var places = [
       "images/hi6.jpg"
     ],
     title: "🏝 Hundred Islands",
-    location: "Alaminos, Pangasinan"
+    desc: "Beautiful islands and crystal waters make this national park perfect for island hopping, swimming, and scenic boat tours with unforgettable views of limestone formations and marine life."
   },
   {
     href: "camp-puor.html",
@@ -41,7 +41,7 @@ var places = [
       "images/cp6.jpg"
     ],
     title: "⛺ Camp Puor",
-    location: "Bolinao, Pangasinan"
+    desc: "Cool mountain air and peaceful surroundings create a relaxing escape for camping, bonfires, hiking, and nature exploration away from city life, surrounded by fresh greenery and scenic landscapes."
   },
   {
     href: "enchanted-cave.html",
@@ -54,7 +54,7 @@ var places = [
       "images/ec6.jpg"
     ],
     title: "🪨 Enchanted Cave",
-    location: "Bolinao, Pangasinan"
+    desc: "Clear underground pools and unique rock formations offer a refreshing swimming experience inside a naturally formed cave, featuring cool spring water and a mysterious underground atmosphere."
   },
   {
     href: "cape-bolinao-lighthouse.html",
@@ -67,7 +67,7 @@ var places = [
       "images/cbl6.jpg"
     ],
     title: "💡 Cape Bolinao Lighthouse",
-    location: "Bolinao, Pangasinan"
+    desc: "Panoramic sea views and golden sunsets surround this historic coastal lighthouse, making it ideal for sightseeing, photography, and quiet reflection while overlooking the West Philippine Sea."
   },
   {
     href: "patar-beach.html",
@@ -80,7 +80,7 @@ var places = [
       "images/pb6.jpg"
     ],
     title: "🏖 Patar Beach",
-    location: "Bolinao, Pangasinan"
+    desc: "Golden sand and calm waves create a relaxing seaside atmosphere perfect for swimming, sunset watching, beach walks, and weekend getaways in a peaceful coastal environment."
   }
 ];
 
