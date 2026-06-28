@@ -83,3 +83,21 @@ var places = [
     location: "Bolinao, Pangasinan"
   }
 ];
+
+var festivals = [
+  {
+    image: "images/f1.jpg",
+    title: "🌊 Pista’y Dayat Festival",
+    desc: "Celebrated every May 1 in Lingayen, this “Festival of the Sea” honors the province’s fishing heritage with beach activities, parades, and thanksgiving ceremonies."
+  },
+  {
+    image: "images/f2.jpg",
+    title: "🎭 Galila Festival",
+    desc: "Meaning “Come!” in Pangasinan, the Galila Festival of Alaminos City invites everyone to celebrate culture through street dancing, art exhibits, and local performances."
+  },
+  {
+    image: "images/f3.jpg",
+    title: "🐟 Bangus Festival",
+    desc: "Dagupan City’s signature event that showcases the province’s famous milkfish through street dancing, cook-offs, parades, and fun competitions for locals and tourists alike."
+  }
+];

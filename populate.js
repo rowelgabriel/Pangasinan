@@ -4,7 +4,7 @@ for (var i = 0; i < aboutCards.length; i++) {
   aboutCardsRow.innerHTML +=
     `
       <div class="col-lg-4 col-md-6">
-        <div class="card h-100 shadow border-0 text-center p-4">
+        <div class="card h-100 rounded-4 shadow border-0 text-center p-4">
           <i class="${aboutCards[i].icon} display-4"></i>
           <div class="card-body">
             <div class="card-title h4">${aboutCards[i].title}</div>
@@ -22,7 +22,7 @@ var placesCardsRow = document.getElementById('places-cards');
 for (var i = 0; i < places.length; i++) {
   var id = "carousel" + i;
   var imagesHTML = "";
-  
+
   for (var j = 0; j < places[i].images.length; j++) {
     imagesHTML += `
       <div class="carousel-item ${j === 0 ? "active" : ""}">
@@ -48,6 +48,24 @@ for (var i = 0; i < places.length; i++) {
         <div class="card-body text-center">
           <div class="card-title fw-bold h4">${places[i].title}</div>
           <div class="card-text">${places[i].location}</div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+var festivalsCardsRow = document.getElementById('festivals-cards');
+
+for (var i = 0; i < festivals.length; i++) {
+  festivalsCardsRow.innerHTML += `
+    <div class="col-lg-4 col-md-6">
+      <div class="card h-100 rounded-4 shadow border-0 text-center">
+        <img src="${festivals[i].image}" class="img-fluid rounded-top" alt="${festivals[i].title}">
+        <div class="card-body">
+          <div class="card-title h4">${festivals[i].title}</div>
+          <div class="card-text text-muted">
+            ${festivals[i].desc}
+          </div>
         </div>
       </div>
     </div>
